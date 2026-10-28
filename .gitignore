@@ -1,0 +1,15 @@
+# Build artifacts are never committed — they go on the release page.
+*.dmg
+*.app
+*.tar.gz
+*.sig
+build/
+out/
+staging/
+
+# macOS
+.DS_Store
+._*
+
+# Local scratch
+scratch/
